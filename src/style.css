@@ -1,0 +1,52 @@
+.tableContainer {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.dataGrid {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dataGrid .MuiDataGrid-root {
+  border: none;
+}
+
+.dataGrid .MuiDataGrid-columnHeaders {
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+.dataGrid .MuiDataGrid-cell {
+  border-bottom: 1px solid #ddd;
+}
+
+.dataGrid .MuiDataGrid-row:hover {
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+.dataGrid .MuiDataGrid-cell:focus {
+  outline: none;
+}
+
+.addButton {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #45a049;
+}
+
+.custom-header {
+  background-color: rgb(19, 164, 231) !important;
+  color: black !important;
+  font-weight: bold !important;
+  text-align: center;
+}
